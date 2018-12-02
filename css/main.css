@@ -23,14 +23,14 @@ div {
 }
 
 .btn-primary-small,
-.btn-stuble-small,
+.btn-subtle-small,
 .btn-ghost-small,
 .btn-warning-small {
   font-size: .875rem;
 }
 
 .btn-primary-big,
-.btn-stuble-big,
+.btn-subtle-big,
 .btn-ghost-big,
 .btn-warning-big {
   font-size: 1.5rem;
@@ -48,13 +48,13 @@ div {
   border: 3px solid #666;
 }
 
-.btn-stuble {
+.btn-subtle {
   background-color: #ccc;
   color: #fff;
   border: 3px solid #ccc;
 }
 
-.btn-stuble:hover {
+.btn-subtle:hover {
   background-color: #666;
   color: #fff;
   border: 3px solid #666;
