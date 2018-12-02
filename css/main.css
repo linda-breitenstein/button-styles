@@ -8,7 +8,7 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .65rem;
   text-align: center;
 }
 
@@ -17,22 +17,18 @@ div {
   font-size: 1.125rem;
   border-radius: 8px;
   text-decoration: none;
-  border: 3px solid #fff;
   display: inline-block;
-  font-weight: bold;
 }
 
-.btn-primary-small,
-.btn-subtle-small,
-.btn-ghost-small,
-.btn-warning-small {
+.btn:hover {
+  border: 3px solid transparent;
+}
+
+.btn-small {
   font-size: .875rem;
 }
 
-.btn-primary-big,
-.btn-subtle-big,
-.btn-ghost-big,
-.btn-warning-big {
+.btn-big {
   font-size: 1.5rem;
 }
 
@@ -51,35 +47,29 @@ div {
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
-  border: 3px solid #ccc;
 }
 
 .btn-subtle:hover {
   background-color: #666;
   color: #fff;
-  border: 3px solid #666;
 }
 
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  border: 3px solid #000;
 }
 
 .btn-ghost:hover {
   background-color: #666;
   color: #fff;
-  border: 3px solid #666;
 }
 
 .btn-warning {
   background-color: #f33;
   color: #fff;
-  border: 3px solid #f33;
 }
 
 .btn-warning:hover {
   background-color: #933;
   color: #fff;
-  border: 3px solid #933;
 }
