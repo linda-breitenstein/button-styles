@@ -8,7 +8,7 @@ html {
 }
 
 div {
-  padding: 1rem;
+  padding: .5rem;
   text-align: center;
 }
 
@@ -18,13 +18,20 @@ div {
   border-radius: 8px;
   text-decoration: none;
   border: 3px solid #fff;
+  display: inline-block;
 }
 
-.btn-small {
+.btn-primary-small,
+.btn-stuble-small,
+.btn-ghost-small,
+.btn-warning-small {
   font-size: .875rem;
 }
 
-.btn-big {
+.btn-primary-big,
+.btn-stuble-big,
+.btn-ghost-big,
+.btn-warning-big {
   font-size: 1.5rem;
 }
 
